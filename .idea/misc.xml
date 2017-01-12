@@ -10,6 +10,12 @@
     <ConfirmationsSetting value="0" id="Add" />
     <ConfirmationsSetting value="0" id="Remove" />
   </component>
+  <component name="ProjectPlainTextFileTypeManager">
+    <file url="file://$PROJECT_DIR$/laptop-demo.html" />
+    <file url="file://$PROJECT_DIR$/laptop-flat-demo.html" />
+    <file url="file://$PROJECT_DIR$/laptop-flat-start.html" />
+    <file url="file://$PROJECT_DIR$/laptop-start.html" />
+  </component>
   <component name="masterDetails">
     <states>
       <state key="ScopeChooserConfigurable.UI">
