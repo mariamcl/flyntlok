@@ -26,6 +26,8 @@
 
   <!-- Master Slider -->
   <script src="masterslider/masterslider.min.js"></script>
+
+  <script src='https://www.google.com/recaptcha/api.js'></script>
 </head>
 <body>
 
@@ -83,9 +85,9 @@
           </div>
           <div class="col s7 m7 l8 hide-on-med-and-down">
             <!-- template -->
-            <div style="padding-top: 80px;" class="ms-laptop-template">
+            <div style="padding-top: 80px; padding-bottom: 150px;" class="ms-laptop-template">
               <div class="ms-laptop-cont">
-                <img src="masterslider/style/laptop.png" class="ms-laptop-bg" />
+                <img src="masterslider/style/flat-laptop.png" class="ms-laptop-bg" />
                 <div style="padding-top: 35px;" class="ms-container">
                   <!-- masterslider -->
                   <div class="master-slider ms-skin-default" id="masterslider">
@@ -249,6 +251,9 @@
                       </textarea>
                     <label for="inquiry">Your Message</label>
                 </div>
+              </div>
+              <div class="row">
+                <div class="g-recaptcha" data-sitekey="6LeNpBEUAAAAAHrF2POk0mRh4Q8vxbeVsLXMTbml"></div>
               </div>
               <div class="row center">
                 <button class="btn-flat waves-effect waves-light" id="send-button" value="Send" type="submit" name="action">Send

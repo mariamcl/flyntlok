@@ -9,6 +9,8 @@
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
     <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+
+    <script src='https://www.google.com/recaptcha/api.js'></script>
 </head>
 <body>
 
@@ -116,6 +118,7 @@
                     </div>
                 </div>
             </div>
+            <div class="g-recaptcha" data-sitekey="6LeNpBEUAAAAAHrF2POk0mRh4Q8vxbeVsLXMTbml"></div>
             <div class="row center">
                 <button class="btn btn-large waves-effect waves-light blue-grey" value="Send" type="submit" name="action">Submit
                     <i class="material-icons right">send</i>
@@ -171,6 +174,9 @@
                                       </textarea>
                                     <label for="inquiry">Your Message</label>
                             </div>
+                        </div>
+                        <div class="row">
+                            <div class="g-recaptcha" data-sitekey="6LeNpBEUAAAAAHrF2POk0mRh4Q8vxbeVsLXMTbml"></div>
                         </div>
                         <div class="row center">
                             <button class="btn-flat waves-effect waves-light" id="send-button" value="Send" type="submit" name="action">Send
