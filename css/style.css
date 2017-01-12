@@ -1,0 +1,195 @@
+/* Custom Stylesheet */
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com
+ */
+
+h3 {
+    font-weight: 200;
+}
+
+h2 {
+    font-weight: 200;
+}
+
+#story a {
+    color: white;
+    text-decoration: underline;
+}
+
+#heading-text {
+    padding-top: 150px;
+    padding-left: 25px;
+}
+
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+	font-size: inherit;
+}
+
+nav img {
+    height: 40px;
+}
+
+#logo-container {
+    padding-top: 10px;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+#nav-buttons ul li a:hover {
+    background-color: lightgray;
+}
+
+#index-banner {
+    opacity: 0;
+}
+
+#icon-section {
+    opacity: 0;
+}
+
+#background {
+    margin-top: 50px;
+    width: 100%;
+}
+
+
+.btn,
+.btn-large {
+    margin-top: 10px;
+}
+
+#screenshot1 {
+    width: 100%;
+    height: 100%;
+}
+
+#screenshot2 {
+    width: 100%;
+    height: 100%;
+}
+
+li a {
+   padding-right: 0;
+}
+
+.input-field select option {
+    color: black;
+}
+
+
+#footer .input-field label {
+    color: white;
+}
+
+/* label focus color */
+#footer .input-field input[type=text]:focus + label,
+#footer .input-field input[type=email]:focus + label,
+#footer .input-field textarea:focus + label{
+    color: white;
+}
+
+.input-field input[type=text]:focus + label,
+.input-field input[type=email]:focus + label,
+.input-field textarea:focus + label{
+    color: royalblue;
+}
+
+/* label underline color */
+#footer .input-field input,
+#footer .input-field textarea {
+    border-bottom: 1px solid white;
+    box-shadow: 0 1px 0 0 white;
+}
+
+
+/* label underline focus color */
+#footer .input-field input[type=text]:focus,
+#footer .input-field input[type=email]:focus,
+#footer .input-field textarea:focus {
+    border-bottom: 1px solid white;
+    box-shadow: 0 1px 0 0 white;
+}
+
+/* label underline focus color */
+.input-field input[type=text]:focus,
+.input-field input[type=email]:focus,
+.input-field textarea:focus {
+    border-bottom: 1px solid royalblue;
+    box-shadow: 0 1px 0 0 royalblue;
+}
+
+#contact-header {
+    background-color: #fb8c00;
+    height: 200px;
+    margin-bottom: 50px;
+    margin-top: 10px;
+    padding-top: 50px;
+}
+
+#about-header {
+    background-color: #fb8c00;
+    height: 200px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    padding-top: 50px;
+}
+
+#contact-header img {
+    height: 100px;
+    padding-top: 20px;
+}
+
+#send-button {
+    color:white;
+}
+
+#map {
+    height: 400px;
+    background-color: grey;
+}
+
+#company-story p {
+    font-weight: 300;
+}
+
+#address {
+    font-size: 22px;
+    font-weight: 300;
+}
+
+blockquote{
+    border-left: 5px solid orange; /* Just change the color value and that's it*/
+    font-weight: 300;
+}
+
+#bottom-logo {
+    padding-top: 15px;
+    width: 100px;
+}
+
+#AAlogo img {
+    width: 100%;
+    height: 300px;
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+
+#CTElogo img {
+    width: 100%;
+    margin-top: 100px;
+    height: 200px;
+}
+
+#company-story i {
+    margin-top: 25px;
+}
+
+#check-mark {
+    padding-top: 10px;
+}

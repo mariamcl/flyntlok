@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0"/>
+    <title>Flyntlok</title>
+
+    <!-- CSS  -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+    <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+</head>
+<body>
+
+<nav class="white z-depth-0" role="navigation">
+    <a id="logo-container" href="index.html" class="brand-logo">
+        <img src="img/Flyntlok%20logo%20design.png"/></a>
+    <div class="nav-wrapper container">
+        <ul class="right hide-on-med-and-down" id="nav-buttons">
+            <li><a class="dropdown-button grey-text text-darken-4" href="#" data-activates="dropdown2">
+                <i class="material-icons right">arrow_drop_down</i>About</a></li>
+            <li><a class="dropdown-button grey-text text-darken-4" href="#" data-activates="dropdown1">
+                <i class="material-icons right">arrow_drop_down</i>Products</a>
+            </li>
+            <li><a class="black-text" href="contact.html">Contact</a>
+            </li>
+            <li><a href="http://flyntlok.com/login.php?ref=/" class="waves-effect waves-light orange btn">Login</a></li>
+        </ul>
+
+        <ul id="nav-mobile" class="side-nav">
+            <li><a class="grey-text text-darken-4" href="index.html">Home</a></li>
+            <li><a class="grey-text text-darken-4" href="about.html">About</a></li>
+            <li><a class="grey-text text-darken-4" href="careers.html">Careers</a></li>
+            <li><a class="grey-text text-darken-4" href="erp.html">Enterprise Planning</a></li>
+            <li><a class="grey-text text-darken-4" href="dms.html">Dealer Management</a></li>
+            <li><a class="grey-text text-darken-4" href="dms.html">Contact</a></li>
+            <li><a class="grey-text text-darken-4" href="http://flyntlok.com/login.php?ref=/">Login</a></li>
+        </ul>
+        <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="black-text material-icons">menu</i></a>
+    </div>
+</nav>
+
+<!-- Dropdown Structure -->
+<ul id='dropdown1' class='dropdown-content'>
+    <li><a class="black-text" href="erp.html">Enterprise Planning Sotware</a></li>
+    <li><a class="black-text" href="dms.html">Dealer Management Software</a></li>
+</ul>
+
+<ul id='dropdown2' class='dropdown-content'>
+    <li><a class="black-text" href="about.html">Company</a></li>
+    <li><a class="black-text" href="careers.html">Employment</a></li>
+</ul>
+
+<div class="section no-pad-bot" id="about-header">
+    <div class="container">
+        <div class="row">
+            <div class="col s12">
+                <h2 class="white-text valign center">Contact</h2>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<div class="section">
+    <div class="container">
+            <div class="row">
+                <div class="col s12 m5 offset-m1" id="address">
+                    <h3>Our Home</h3>
+                    <p>
+                        621 E. 57th Place <br>
+                        Anchorage, AK 99518
+                    </p>
+                    <p>
+                        (907)-312-5877<br>
+                        info@flyntlok.com
+                    </p>
+                </div>
+                <div class="col s12 m6" id="map"></div>
+            </div>
+    </div>
+</div>
+
+<footer class="page-footer orange">
+    <div class="container">
+        <div class="row">
+            <div class="col l6 s12">
+                <h5 class="white-text">About Us</h5>
+                <p class="grey-text text-lighten-4" id="story">
+                    We are currently a two person software company operating with the power of 200.  Our first two
+                    customers have worked to develop the specifications and test the current software.  Please see
+                    <a href="http://craigtaylorequipment.com/">Craig Taylor Equipment</a> as an example of a company
+                    using the Dealer Management Software and <a href="http://www.airframesalaska.com/">Airframes Alaska</a> as
+                    an example of a company using the Enterprise Resource Planning software.
+                </p>
+                <p class="white-text">Want to join the Flyntlok family? <a href="careers.html">Careers</a></p>
+                <p class="white-text">
+                    621 E. 57th Place <br>
+                    Anchorage, AK 99518
+                </p>
+                <p class="white-text">
+                    (907) - 312 - 5877<br>
+                    info@flyntlok.com
+                </p>
+
+            </div>
+            <div class="col l6 s12">
+                <h5 class="white-text">Connect with Us</h5>
+                <div class="row" id="footer">
+                    <form class="white-text col s12" action="https://formspree.io/jacob@flyntlok.com" method="POST">
+                        <div class="row">
+                            <div class="input-field col s12">
+                                <input id="business" type="text" class="validate">
+                                <label for="business">Your Business</label>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="input-field col s12">
+                                <input id="email" type="email" class="validate">
+                                <label for="email">Your Email</label>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="input-field col s12">
+                                <textarea id="inquiry" type="text" class="materialize-textarea" length="120">
+                                  </textarea>
+                                    <label for="inquiry">Your Message</label>
+                            </div>
+                        </div>
+                        <div class="row center">
+                            <button class="btn-flat waves-effect waves-light" id="send-button" value="Send" type="submit" name="action">Send
+                                <i class="material-icons right">send</i>
+                            </button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer-copyright">
+        <div class="row center">
+            <i class="white-text material-icons">copyright</i> <img id="bottom-logo" src="img/White%20no%20background.png"/>
+        </div>
+    </div>
+</footer>
+
+
+<!--  Scripts-->
+<script async defer
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAZIHN0fw3Du1zznlgijPsp8MBSn47AcpQ&callback=initMap">
+</script>
+<script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+<script src="js/materialize.js"></script>
+<script src="js/init.js"></script>
+
+</body>
+</html>
