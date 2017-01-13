@@ -2805,6 +2805,13 @@ ul.staggered-list li {
   }
 }
 
+@media only screen and (max-width: 1040px) {
+  .hide-on-med-special {
+    display: none !important;
+  }
+}
+
+
 @media only screen and (max-width: 992px) {
   .hide-on-med-and-down {
     display: none !important;

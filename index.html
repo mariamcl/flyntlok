@@ -44,7 +44,7 @@
         </li>
         <li><a class="black-text" href="contact.html">Contact</a>
         </li>
-        <li><a href="http://flyntlok.com/login.php?ref=/" class="waves-effect waves-light orange btn">Login</a></li>
+        <li><a href="http://www.flyntlok.com/login.php?ref=/" class="waves-effect waves-light orange btn">Login</a></li>
       </ul>
 
       <ul id="nav-mobile" class="side-nav">
@@ -53,8 +53,8 @@
         <li><a class="grey-text text-darken-4" href="careers.html">Careers</a></li>
         <li><a class="grey-text text-darken-4" href="erp.html">Enterprise Planning</a></li>
         <li><a class="grey-text text-darken-4" href="dms.html">Dealer Management</a></li>
-        <li><a class="grey-text text-darken-4" href="dms.html">Contact</a></li>
-        <li><a class="grey-text text-darken-4" href="http://flyntlok.com/login.php?ref=/">Login</a></li>
+        <li><a class="grey-text text-darken-4" href="contact.html">Contact</a></li>
+        <li><a class="grey-text text-darken-4" href="http://www.flyntlok.com/login.php?ref=/">Login</a></li>
       </ul>
       <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="black-text material-icons">menu</i></a>
     </div>
@@ -62,7 +62,7 @@
 
   <!-- Dropdown Structure -->
   <ul id='dropdown1' class='dropdown-content'>
-    <li><a class="black-text" href="erp.html">Enterprise Planning Sotware</a></li>
+    <li><a class="black-text" href="erp.html">Enterprise Planning Software</a></li>
     <li><a class="black-text" href="dms.html">Dealer Management Software</a></li>
   </ul>
 
@@ -76,14 +76,14 @@
 
   <div class="section no-pad-bot">
         <div class="row" id="welcome-screen">
-          <div class="col s12 m12 l4" id="slogan">
-            <h3 id="heading-text" class="center orange-text text-darken-3">Management software just got simpler for equipment dealers.</h3>
+          <div class="col s12 m12 l4 offset-l1" id="slogan">
+            <h3 id="heading-text" class="center orange-text text-darken-3">Management software just got simpler.</h3>
             <div class="row center">
               <a href="signup.html" class="waves-effect waves-light orange btn-large">Get Started</a>
               <a href="#index-banner" class="btn-large waves-effect waves-light blue-grey">Learn More</a>
             </div>
           </div>
-          <div class="col s7 m7 l8 hide-on-med-and-down">
+          <div class="col s8 l7 hide-on-med-special hide-on-med-and-down" id="slider">
             <!-- template -->
             <div style="padding-top: 80px; padding-bottom: 150px;" class="ms-laptop-template">
               <div class="ms-laptop-cont">
@@ -92,16 +92,16 @@
                   <!-- masterslider -->
                   <div class="master-slider ms-skin-default" id="masterslider">
                     <div class="ms-slide">
-                      <img src="masterslider/style/blank.gif" data-src="img/screenshot1.png" alt="lorem ipsum dolor sit"/>
+                      <img src="masterslider/style/blank.gif" data-src="img/SS1.png" alt="lorem ipsum dolor sit"/>
                     </div>
                     <div class="ms-slide">
-                      <img src="masterslider/style/blank.gif" data-src="img/screenshot2.png" alt="lorem ipsum dolor sit"/>
+                      <img src="masterslider/style/blank.gif" data-src="img/SS2.png" alt="lorem ipsum dolor sit"/>
                     </div>
                     <div class="ms-slide">
-                      <img src="masterslider/style/blank.gif" data-src="img/3.jpg" alt="lorem ipsum dolor sit"/>
+                      <img src="masterslider/style/blank.gif" data-src="img/SS3.png" alt="lorem ipsum dolor sit"/>
                     </div>
                     <div class="ms-slide">
-                      <img src="masterslider/style/blank.gif" data-src="img/4.jpg" alt="lorem ipsum dolor sit"/>
+                      <img src="masterslider/style/blank.gif" data-src="img/SS4.png" alt="lorem ipsum dolor sit"/>
                     </div>
                   </div>
                   <!-- end of masterslider -->
@@ -232,23 +232,22 @@
         <div class="col l6 s12">
           <h5 class="white-text">Connect with Us</h5>
           <div class="row" id="footer">
-            <form class="white-text col s12" action="https://formspree.io/jacob@flyntlok.com" method="POST">
+            <form class="white-text col s12" action="secret post action" method="POST">
               <div class="row">
                 <div class="input-field col s12">
-                  <input id="business" type="text" class="validate">
+                  <input id="business" name="business" type="text" class="validate">
                   <label for="business">Your Business</label>
                 </div>
               </div>
               <div class="row">
                 <div class="input-field col s12">
-                  <input id="email" type="email" class="validate">
+                  <input required id="email" name="email" type="email" class="validate">
                   <label for="email">Your Email</label>
                 </div>
               </div>
               <div class="row">
                 <div class="input-field col s12">
-                    <textarea id="inquiry" type="text" class="materialize-textarea" length="120">
-                      </textarea>
+                    <textarea id="inquiry" name="additional" type="text" class="materialize-textarea" length="120"></textarea>
                     <label for="inquiry">Your Message</label>
                 </div>
               </div>
@@ -281,7 +280,8 @@
       speed:20,
       preload:0,
       space:2,
-      view:'mask'
+      view:'mask',
+      startOnAppear: true
     });
     slider.control('arrows');
     slider.control('bullets',{autohide:false});
